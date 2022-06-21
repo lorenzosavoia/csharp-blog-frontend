@@ -1,5 +1,6 @@
 html {
     font-size: 14px;
+    background-color:black;
 }
 
 @media (min-width: 768px) {
@@ -37,4 +38,9 @@ body {
 
 .post-single-image-container {
     margin-bottom: 10px;
+}
+.bordo-white {
+    height: 30px; 
+    width: 100%;
+    background-color:white;
 }

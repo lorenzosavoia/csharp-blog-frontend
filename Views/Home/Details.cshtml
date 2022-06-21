@@ -1,6 +1,6 @@
 ﻿<div class="container">
     <div class="row">
-        <div class="col-12">
+      @*  <div class="col-12">
             <div class="d-flex align-items-center">
                 <h1 class="mt-3 mb-3">Dettagli post</h1>
             </div>
@@ -15,7 +15,23 @@
                 <strong>Contenuto:</strong>
                 <textarea rows="10" class="js_input_description form-control d-block w-100" readonly ></textarea>
             </div>
-        </div>
+        </div>*@
+
+        
+    <div class="card col-12 mt-5" style="">
+                      <div class="bordo-white pt-2 ps-3" style="height:40px;">
+                            <h5 class="card-title">
+                                <input class="js_input_title form-control d-block" readonly />
+                            </h5>
+                        </div>
+                        <img class="card-img-top js_input_image w-50">
+                        <div class="card-body">
+                            <p class="card-text">
+                                <textarea rows="10" class="js_input_description form-control d-block" readonly ></textarea>
+                            </p>
+                        </div>
+                    </div>
+                        
     </div>
     <div>
         <a asp-action="Index">Back to List</a>
